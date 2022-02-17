@@ -4,10 +4,10 @@ on:
   push:
       
 env:
-  IMAGE_NAME: test-multi-arch
+  IMAGE_NAME: multi-arch-demo
   IMAGE_TAG: latest
   IMAGE_REGISTRY: quay.io
-  IMAGE_NAMESPACE: mayurwaghmode111
+  IMAGE_NAMESPACE: gauravbankar
 
 jobs:
   build:
